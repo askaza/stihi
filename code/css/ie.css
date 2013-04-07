@@ -1,0 +1,55 @@
+input {
+    overflow:visible;
+}
+
+/* zoomin */
+.clearfix,
+.menu,
+.fields-list,
+.fields-list__item,
+.section_banners,
+.block_profile,
+.auth-tabs__tabs,
+.category-title,
+.slide,
+.slides_container,
+.form,
+.round-form {
+	zoom:1;
+}
+
+.section_sitemap  .menu__item,
+.btn,
+jqTransformRadioWrapper,
+.jqTransformCheckboxWrapper,
+.jqTransformRadio,
+.jqTransformCheckbox {
+   *zoom:1;
+   *display:inline;
+}
+
+/* Через условные комментарии или хаки пишем стили для IE */
+.banner__title__text {
+      background-image: none; /* IE ≤ 9.0 */
+	zoom:1;
+	display: block;
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg/red-arrow-bg.png',sizingMethod='scale')";
+    /* IE < 8 */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg/red-arrow-bg.png', sizingMethod='scale');
+
+}
+
+.btn_blue {
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg/blue-btn-bg.png',sizingMethod='scale')";
+    /* IE < 8 */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg/blue-btn-bg.png', sizingMethod='scale');
+    background-image: none; /* IE ≤ 9.0 */
+	zoom:1;
+}
+
+.category-title {
+	background: url(../images/bg/category-title-bg.png) repeat 0 0;
+}
+
