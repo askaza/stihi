@@ -1,0 +1,186 @@
+.round-form {
+    position: relative;
+    border:1px solid #d3d3d3;
+    border-radius:5px;
+    behavior: url(PIE.htc);
+}
+.round-form .field {
+    background: none;
+    padding:7px 15px;
+    height: 18px;
+}
+.fields-list {
+    margin: 0;
+    padding: 0;
+}
+
+.fields-list__item {
+    list-style: none outside;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+input, textarea, select {
+    color: #4a4a48;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+textarea {
+    resize:none;
+    overflow: auto;
+}
+
+label {
+    color: #000000;
+    float: left;
+    font-family: 'PTSansNarrowRegular';
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    width: 110px;
+}
+
+.field_chbox_box {
+    position: relative;
+    padding-left: 35px;
+    display: block;
+}
+.field_chbox_box input,
+.field_chbox_box .jqTransformCheckboxWrapper  {
+    position: absolute;
+    top:6px;
+    left:0;
+}
+.field_chbox_box label {
+    position: relative;
+    width: auto;
+    text-align: left;
+    float: none;
+}
+.form .fields-list .field_file {
+    height: 24px ;
+    margin-top: 5px;
+}
+
+.field_error.placeholder {
+    color: #e91d02;
+}
+input.field_error:-moz-placeholder,
+textarea.field_error:-moz-placeholder { color: #e91d02;	 }
+
+input.field_error::-moz-placeholder,
+textarea.field_error::-moz-placeholder { color: #e91d02; }
+
+
+input.field_error::-webkit-input-placeholder,
+textarea.field_error::-webkit-input-placeholder { color: #e91d02; }
+
+.form-error {
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.form-error h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'PTSansNarrowBold';
+    color: #e91d02;
+}
+.errors-list {
+    margin: 0;
+}
+.errors-list li {
+    color: #e91d02;
+    font-size: 14px;
+    margin-bottom: 3px;
+    font-family: 'PTSansNarrowRegular';
+}
+
+.form-note {
+    color: #262627;
+    font-size: 13px;
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+.form-note_small {
+    font-size: 13px;
+    color: #262627;
+    margin-bottom: 15px;
+}
+.form-text {
+    border-top:1px dotted #000;
+    padding-top: 15px;
+    color: #a40d21;
+    font-family: 'arialnarrow';
+    font-size: 19px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.form-text span {
+    color: #000;
+}
+
+.jqTransformHidden {display: none;}
+
+.jqTransformCheckbox {
+    background: url(../images/bg/icons.png) no-repeat -32px -155px;;
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+    display:inline-block;
+}
+.jqTransformCheckbox.jqTransformChecked {
+    background-position:-56px -155px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 14px;
+}
+
+.btn_blue {
+    border-top:1px solid #2d5ebe;
+    font-family: 'PTSansNarrowRegular';
+    height: 33px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:1px 1px 1px #23427e;
+    background-image: url(../images/bg/blue-btn-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-transform: uppercase;
+    -o-background-size: 100% 32px; /* opera ≥ 9.5 */
+    -webkit-background-size: 100% 32px /* Safari ≥ 5.0, Chrome ≥ 4.0 */
+	-khtml-background-size: 100% 32px; /* Konqueror ≥ 3.5.4 */
+    -moz-background-size: 100% 32px; /* Firefox ≥ 3.6 */
+    background-size: 100% 32px; /* браузеры с поддержкой CSS3: FF ≥ 4, Opera ≥ 10.53, IE ≥ 9.0 */
+    bottom:0;
+    right:0;
+
+}
+
+.btn_rounded {
+    border-radius:5px;
+    padding: 0 14px;
+    behavior: url(PIE.htc);
+}
+
+.btn_silver {
+    background: url(../images/bg/btn-silver-bg.png) repeat-x 0 0;
+    border:1px solid #a0a1a3;
+    width: 128px;
+    text-align: center;
+    font-size: 13px;
+    color: #5c5c5c;
+    height: 32px;
+    line-height: 31px;
+    text-shadow:1px 1px 1px #f7f7f7;
+}
+
