@@ -6,12 +6,12 @@ body {
 }
 
 body {
-    background: #f3f3f3 url(../images/bg/page-gradient.png) repeat-x 0 0;    
+    background: #f3f3f3 url(../images/bg/page-gradient.png) repeat-x 0 0;
     min-width:980px;
-    position: relative;   
+    position: relative;
 }
 .page {
-    background: url(../images/bg/page-pict.png) no-repeat 170px 0;    
+    background: url(../images/bg/page-pict.png) no-repeat 170px 0;
     height: auto !important;
     min-height: 100%;
     position: relative;
@@ -28,8 +28,8 @@ body {
 
 
 .footer,
-.main {      
-    display: inline-block;        
+.main {
+    display: inline-block;
     max-width: 1020px;
     min-width: 780px;
     width: 100%;
@@ -45,16 +45,16 @@ body {
 .logo {
     position: absolute;
     left:0;
-    top:45px;  
+    top:45px;
     margin: 0;
     padding: 0;
      min-width: 172px;
-    max-width: 186px; 
-    text-decoration: none; 
+    max-width: 186px;
+    text-decoration: none;
     width: 17%;
 }
-.logo__img {   
-    display: block;  
+.logo__img {
+    display: block;
     height: auto;
     width: 100%;
 }
@@ -72,11 +72,11 @@ body {
     overflow: hidden;
     z-index: 2;
 }
-.footer {   
-    color:#a3a3a3;     
+.footer {
+    color:#a3a3a3;
     font-size:12px;
     line-height: 15px;
-    padding: 9px 0;     
+    padding: 9px 0;
     position: relative;
     text-align: left;
 }
@@ -98,7 +98,7 @@ body {
     padding: 0;
 }
 .menu__item {
-    list-style: none outside; 
+    list-style: none outside;
 }
 .menu_main {
     letter-spacing: 8px;
@@ -123,7 +123,7 @@ body {
 .social-buttons  {
     margin: 0;
     padding: 0;
-    position: absolute;  
+    position: absolute;
     top:-20px;
     right: 26%;
 }
@@ -144,7 +144,7 @@ body {
     text-decoration: underline;
     top:-5px;
     right:2%;
-    min-width: 197px;    
+    min-width: 197px;
     width: 25%;
 }
 .order-button .order-button__corner {
@@ -192,11 +192,77 @@ body {
     opacity: 1;
 }
 
-.quote__promo {
+.quote_promo {
     float: right;
     margin: 30px 0 20px 35px;
     width: 340px;
 }
+.quote_promo__top {
+    background: #f3e9c9;
+    height: 12px;
+    position: relative;
+    margin: 0 44px 0 11px;
+}
+.quote_promo .tl {
+    background: url(../images/bg/quote-corners.png) no-repeat 0 0;
+    position: absolute;
+    height: 12px;
+    left:-11px;
+    top:0;
+    width: 11px;
+}
+
+.quote_promo .tr {
+    background: url(../images/bg/quote-corners.png) no-repeat -12px 0;
+    position: absolute;
+    top:-14px;
+    right:-44px;
+    height: 51px;
+    width: 44px;
+}
+
+.quote_promo__bottom {
+    background: #f3e9c9 url(../images/bg/quote-bg-bottom.png) repeat-x 0 100%;
+    height: 11px;
+    position: relative;
+    margin: 0 11px 0 11px;
+}
+.quote_promo .bl {
+    background: url(../images/bg/quote-corners.png) no-repeat 0 -13px;
+    position: absolute;
+    height: 11px;
+    left:-11px;
+    top:0;
+    width: 11px;
+}
+
+.quote_promo .br {
+    background: url(../images/bg/quote-corners.png) no-repeat 0 -25px;
+    position: absolute;
+    top:0;
+    right:-11px;
+    height: 11px;
+    width: 11px;
+}
+
+.quote_promo__content {
+     background: #f3e9c9 url(../images/bg/quote-bg-right.png) repeat-y 100% 0;
+     padding: 20px 50px 10px 35px;
+}
+
+.quote_promo .quote__text {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'PTSansNarrowRegular';
+    font-style: italic;
+}
+.quote__author {
+    font-family: 'PTSansBoldItalic';
+    display: block;
+    text-align: right;
+    font-size: 20px;
+}
+
 
 .poems-types {
     margin: 0;
@@ -209,5 +275,51 @@ body {
 .poems-types__item a {
     font-size: 19px;
     font-family: 'PTSansNarrowRegular';
+}
+.page-head {
+     display: inline-block;
+   position: relative;
+   margin-bottom: 35px;
+
+}
+.page-title {
+    display: inline-block;
+    position: relative;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'PTSansNarrowBold';
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-right: 470px;
+}
+.page-head__note {
+    display: block;
+    font-size: 30px;
+    color:#afafaf;
+    text-transform: lowercase;
+    font-weight:normal;
+    font-family: 'PTSansNarrowRegular';
+    line-height: 30px;
+    margin-top: -5px;
+}
+.page-head .ico_text-label {
+    background: url(../images/bg/hit.png) no-repeat 0 0;
+    position: absolute;
+    height: 97px;
+    width: 97px;
+    right: -71px;
+    bottom:50px;
+    z-index: -1;
+}
+
+.promo-title {
+    clear: both;
+     font-family: 'PTSansNarrowRegular';
+     font-size: 25px;
+     line-height: 36px;
+     margin-bottom: 60px;
+}
+.promo-title .marked {
+    color:#d7316e;
 }
 /* content >  */
