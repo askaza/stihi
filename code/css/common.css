@@ -202,7 +202,8 @@ ul li {
 .header .inner:after,
 .menu:after,
 .top:after,
-.fields-list:after {
+.fields-list:after, 
+.columns:after {
     content: ".";
     display: block;
     height: 0;
