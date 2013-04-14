@@ -146,8 +146,10 @@ h3 {
     text-transform: uppercase;
 }
 
-h4 {
-
+h5 {
+font-family: 'PTSansBoldItalic';
+font-size: 20px;
+color:#000;
 }
 
  ul,
@@ -156,9 +158,9 @@ h4 {
     padding: 0;
 }
 
-ul li {    
+ul li {
     margin-top: 5px;
-    list-style: disc;    
+    list-style: disc;
 }
 
 
@@ -194,7 +196,7 @@ ul li {
     width: 16px;
 }
 .ico_vk:hover {
-   background-position: -19px -36px; 
+   background-position: -19px -36px;
 }
 /* clear */
 
@@ -202,7 +204,7 @@ ul li {
 .header .inner:after,
 .menu:after,
 .top:after,
-.fields-list:after, 
+.fields-list:after,
 .columns:after {
     content: ".";
     display: block;
