@@ -17,6 +17,15 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 	    overlay : {
 		locked     : false
 	    }
+	},
+	 afterLoad: function(current) {
+	    current.setAttribute("class", "className");
+	},
+	beforeLoad : function() {
+	    $('.menu__item_portfolio').addClass('menu__item_active');
+	},
+	 afterClose : function() {
+	   $('.menu__item_portfolio').removeClass('menu__item_active');
 	}
 
     });

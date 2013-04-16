@@ -3,18 +3,7 @@ input {
 }
 
 /* zoomin */
-.clearfix,
-.menu,
-.fields-list,
-.fields-list__item,
-.section_banners,
-.block_profile,
-.auth-tabs__tabs,
-.category-title,
-.slide,
-.slides_container,
-.form,
-.round-form {
+.clearfix {
 	zoom:1;
 }
 
@@ -28,28 +17,24 @@ jqTransformRadioWrapper,
    *display:inline;
 }
 
-/* Через условные комментарии или хаки пишем стили для IE */
-.banner__title__text {
-      background-image: none; /* IE ≤ 9.0 */
-	zoom:1;
-	display: block;
-    /* IE8 */
-    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg/red-arrow-bg.png',sizingMethod='scale')";
-    /* IE < 8 */
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg/red-arrow-bg.png', sizingMethod='scale');
-
+.text-box__title {
+    background: url(../images/bg/box-title-bg1.png) no-repeat 0 0;
+}
+.text-box__note {
+    background: url(../images/bg/box-note-bg1.png) no-repeat 0 0;
 }
 
-.btn_blue {
-    /* IE8 */
-    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg/blue-btn-bg.png',sizingMethod='scale')";
-    /* IE < 8 */
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg/blue-btn-bg.png', sizingMethod='scale');
-    background-image: none; /* IE ≤ 9.0 */
-	zoom:1;
+.text-box__head_style2 .text-box__title {
+    background: url(../images/bg/box-title-bg2.png) no-repeat 0 0;
+}
+.text-box__head_style2 .text-box__note {
+    background: url(../images/bg/box-note-bg2.png) no-repeat 0 0;
 }
 
-.category-title {
-	background: url(../images/bg/category-title-bg.png) repeat 0 0;
+.text-box__head_style3 .text-box__title {
+     background: url(../images/bg/box-title-bg3.png) no-repeat 0 0;
 }
 
+.text-box__head_style3 .text-box__note {
+     background: url(../images/bg/box-note-bg3.png) no-repeat 0 0;
+}
