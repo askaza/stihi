@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
-        <title>Стихи 3D</title>
+       <title>Стихи 3D</title>
         <meta charset="utf-8" />
         <link type="image/x-icon" rel="icon" href="favicon.ico" />
         <link type="image/png" rel="icon" href="favicon.png" />
@@ -23,7 +23,15 @@
 
         <![endif]-->
 
-	<script src="js/respond.src.js"></script>
+	<script type="text/javascript" src="js/yViewportModificator.min.js"></script>
+   
+	
+	<script type="text/javascript">
+		yViewportModificator.configure({
+		class_mask: 'viewort_',
+		widths: [100, 1010, 1280]
+ 	});
+	</script>
 
 
 
@@ -172,7 +180,182 @@
 				   </div>
 			       </div>
 			   </fieldset>
-
+                           
+                           <fieldset>
+                              <h5 class="fieldset-subtitle">4.Праздник</h5>
+                              <div class="columms columns_4set">
+                                  <div class="column">
+                                      <ul class="fields-list">
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> День рождения</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Юбилей</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Рождение ребенка</label>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                   <div class="column">
+                                      <ul class="fields-list">
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Свадьба</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Новоселье</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Именины</label>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                   <div class="column">
+                                      <ul class="fields-list">
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> Новый год</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> День влюбленных</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> День матери</label>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                   <div class="column">
+                                      <ul class="fields-list">
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> 8 марта</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> 23 февраля</label>
+                                          </li>
+                                          <li class="fields-list__item">
+                                              <label class="radio-box"><input class="field field_chbox" type="radio" name="poetry-reason" /> 9 мая</label>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                           </fieldset>
+                           
+                           <fieldset>
+                               <h5 class="fieldset-subtitle">5. Ссылки на странички в социальных сетях:</h5>
+                               <textarea class="field field_textarea field_textarea_short"></textarea>
+                           </fieldset>
+                           
+                           <fieldset>
+                               <div class="columns columns_2set">
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">6. Какой характер?</h5>
+                                       <a href="#popup-character" class="show-hint-popup">Список:черты характера</a>
+                                       <textarea class="field field_textarea"></textarea>
+                                   </div>
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">7. Что делает?</h5>                                       
+                                       <textarea class="field field_textarea" placeholder="Работа, хобби, увлечения"></textarea>
+                                   </div>
+                               </div>                               
+                           </fieldset>
+                           
+                           <fieldset>
+                               <div class="columns columns_2set">
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">8. Чем живет?</h5>
+                                       <textarea class="field field_textarea" placeholder="Семья, дом, мечты, цели, жизненная позиция, вкусы, пристрастия, что любит (песни, фильмы),что не любит (рыбу, зиму)"></textarea>
+                                   </div>
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">9. Что есть и что было?</h5>                                       
+                                       <textarea class="field field_textarea" placeholder="Характерные поступки, проишествия, истории из жизни"></textarea>
+                                   </div>
+                               </div>                               
+                           </fieldset>
+                           
+                           <fieldset>
+                               <h5 class="fieldset-subtitle">10. Загрузите фото- и видеоматериалы</h5>
+                               <ul class="fields-list">
+                                   <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
+                                   <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
+                                   <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
+                                   <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
+                                   <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
+                               </ul>
+                           </fieldset>                           
+                           
+                            <h4 class="poetry-order__title">О стихах</h4>
+			   <p class="form-text">
+			       Вы, наверное, уже познакомились с <a href="#">моими стихами</a> и у Вас возникли
+                               свои предпочтения к стилю, ритму, форме и настроению вашего будущего
+                               поздравления. Пожалуйста, скопируйте ссылку на понравившееся произведение
+                               в поле «Особые указания и пожелания» или напишите его первые строчки.
+                               Я буду рад исполнить ваш замысел.
+			   </p>
+                           
+                         
+                           <fieldset>
+                               <h5 class="fieldset-subtitle">11. Что хотите пожелать?</h5>
+                               <a href="#popup-wish" class="show-hint-popup">Список: основные пожелания</a>
+                               <textarea class="field field_textarea field_textarea_short" placeholder="Но лучше пожелайте что-нибудь личное, подходящее именно для этого человека"></textarea>
+                           </fieldset>
+                           
+                           <fieldset>
+                               <div class="columns columns_3set">
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">12. Какой тон стиха?</h5>
+                                       <select class="field field_select">
+                                           <option>Шутливый</option>
+                                           <option>Спокойный</option>
+                                           <option>Печальный</option>
+                                       </select>
+                                   </div>
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">13. Какой объем?</h5>
+                                       <select class="field field_select">
+                                           <option>1 четверостишие</option>
+                                           <option>2 четверостишия</option>
+                                           <option>4 четверостишия</option>
+                                       </select>
+                                   </div>
+                                   <div class="column">
+                                       <h5 class="fieldset-subtitle">14. Какое обращение?</h5>
+                                       <select class="field field_select">
+                                           <option>От нас на "ты"</option>
+                                           <option>От меня на "ты"</option>
+                                           <option>От нас на "вы"/option>
+                                       </select>
+                                   </div>
+                               </div>  
+                           </fieldset>
+                           
+                           
+                            <fieldset>
+                               <h5 class="fieldset-subtitle">15. Особые указания и пожелания</h5>
+                               <textarea class="field field_textarea"></textarea>
+                           </fieldset>
+                           
+                            <h4 class="poetry-order__title">Контакты</h4>
+                            <p class="form-text form-text_error">
+                                К сожалению, нам необходимо чуть больше информации о Вас. Раздел «Контакты» должен быть полность заполнен. В остальных разделах 
+                                допускается частичное заполение, но не менее 50% от общего числа вопросов.
+                            </p>
+                            
+                            <fieldset>
+                               <div class="columns columns_3set">
+                                   <div class="column">
+                                       <label>Имя</label>
+                                       <input class="field field_text" />
+                                   </div>    
+                                   <div class="column">
+                                       <label>E-mail</label>
+                                       <input class="field field_text" />
+                                   </div>    
+                                   <div class="column">
+                                       <label>Телефон</label>
+                                       <input class="field field_text" />
+                                   </div>    
+                            </fieldset>
+                            
+                            <div class="btnset"><input type="submit" class="btn" value="Отправить"/></div>
 
 			   </form>
 
@@ -196,40 +379,36 @@
             </div>
         </div>
 
-	<div id="portfolio1" class="portfolio-popup" style="display: none;">
-	    <div class="columms">
-		<div class="column column_left">
-		    <div class="page-head">
-			<h2 class="page-title">стихи на день рождения</h2>
-                        <small class="page-head__note">для "солнышко"</small>
-		    </div>
-		    <p>
-			День начинается с музыки солнца,<br/>
-			Девушка в белом смотрит в оконце,<br/>
-			Улыбка белоснежна красит утро,<br/>
-			Лицо сияет чудным перламутром.<br/><br/>
+	<div id="popup-character" class="hint-popup" style="display: none;">
+	    <div class="columns columns_alphabet">
+                <ul class="hints-list">
+                    <li class="hints-list__item">
+                        <strong class="letter">A</strong>
+                        <ul>
+                            <li>Аккуратность</li>
+                            <li>Активность</li>
+                            <li>Альтруизм</li>
+                            <li>Артистичность</li>
+                        </ul>
+                    </li>
+                    <li class="hints-list__item">
+                        <strong class="letter">Б</strong>
+                        <ul>
+                            <li>Балагурство</li>
+                            <li>Бдительность</li>
+                            <li>Беззаботность</li>
+                            <li>Бережливость</li>
+                            <li>Бескорыстность</li>
+                            <li>Безрассудство</li>
+                            <li>Беспечность</li>
+                            <li>Бесстрашие</li>
+                            <li>Благожелательность</li>
+                            <li>Благоразумность</li>
+                            <li>Благородство</li>
 
-			Сегодня солнышко поспит подольше,<br/>
-			Ведь некуда спешить нам больше,<br/>
-			На одеяле вьется нежный лучик,<br/>
-			Ведь это к счастью златой ключик.<br/><br/>
-
-			Подушку кутают кудряшки,<br/>
-			Ты мило улыбаешься во сне,<br/>
-			Не оторвать глаз от милашки,<br/>
-			Ведь теплится любовь в тебе.<br/><br/>
-
-			Откроешь очи голубые,<br/>
-			И в небе отражается рассвет,<br/>
-			Ты распускаешь кудри золотые,<br/>
-			Рапунцель передай привет!
-
-		    </p>
-		    <strong class="author-copy">&copy; Автор Антонио Миро</strong>
-		</div>
-		<div class="column column_right">
-		    <img src="images/content/girl.jpg" alt="" title="" class="portfolio-img"/>
-		</div>
+                        </ul>
+                    </li>
+                </ul>
 	    </div>
 	</div>
 

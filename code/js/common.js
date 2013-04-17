@@ -19,7 +19,7 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 	    }
 	},
 	 afterLoad: function(current) {
-	    current.setAttribute("class", "className");
+	    
 	},
 	beforeLoad : function() {
 	    $('.menu__item_portfolio').addClass('menu__item_active');
@@ -29,6 +29,10 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 	}
 
     });
+    
+    
+ 
+
 
 
 

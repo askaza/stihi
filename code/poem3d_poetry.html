@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<title>Стихи 3D</title>
+	 <title>Стихи 3D</title>
         <meta charset="utf-8" />
         <link type="image/x-icon" rel="icon" href="favicon.ico" />
         <link type="image/png" rel="icon" href="favicon.png" />
@@ -23,7 +23,15 @@
 
         <![endif]-->
 
-	<script src="js/respond.src.js"></script>
+	<script type="text/javascript" src="js/yViewportModificator.min.js"></script>
+   
+	
+	<script type="text/javascript">
+		yViewportModificator.configure({
+		class_mask: 'viewort_',
+		widths: [100, 1010, 1280]
+ 	});
+	</script>
 
 
     </head>
