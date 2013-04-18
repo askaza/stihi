@@ -287,10 +287,10 @@
 			
 			// Calculate the height if necessary, less elements that the default height
 			//show the ul to calculate the block, if ul is not displayed li height value is 0
-			$ul.css({display:'block',visibility:'hidden'});
-			var iSelectHeight = ($('li',$ul).length)*($('li:first',$ul).height());//+1 else bug ff
-			(iSelectHeight < $ul.height()) && $ul.css({height:iSelectHeight,'overflow':'hidden'});//hidden else bug with ff
-			$ul.css({display:'none',visibility:'visible'});
+			//$ul.css({display:'block',visibility:'hidden'});
+			//var iSelectHeight = ($('li',$ul).length)*($('li:first',$ul).height());//+1 else bug ff
+			//(iSelectHeight < $ul.height()) && $ul.css({height:iSelectHeight,'overflow':'hidden'});//hidden else bug with ff
+			//$ul.css({display:'none',visibility:'visible'});
 			
 		});
 	};
@@ -305,11 +305,11 @@
 			
 			//$('input:submit, input:reset, input[type="button"]', this).jqTransInputButton();
 			//$('input:text, input:password', this).jqTransInputText();
-			$('input:checkbox', this).jqTransCheckBox();
-			//$('input:radio', this).jqTransRadio();
+			//$('input:checkbox', this).jqTransCheckBox();
+			$('input:radio', this).jqTransRadio();
 			//$('textarea', this).jqTransTextarea();
 			
-			//if( $('select', this).jqTransSelect().length > 0 ){jqTransformAddDocumentListener();}
+			if( $('select', this).jqTransSelect().length > 0 ){jqTransformAddDocumentListener();}
 			selfForm.bind('reset',function(){var action = function(){jqTransformReset(this);}; window.setTimeout(action, 10);});
 			
 			//preloading dont needed anymore since normal, focus and hover image are the same one

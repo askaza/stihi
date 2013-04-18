@@ -38,7 +38,7 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 
 	$('input, textarea').placeholder();
 
-	$('.jqtransform').jqTransform();
+	$('.form').jqTransform();
 
 
 

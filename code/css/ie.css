@@ -102,6 +102,10 @@ jqTransformRadioWrapper,
 .viewort_100-1280 .incut_img  {
     padding:8px;
 }
+.viewort_100-1280 .columns_4set .column {
+    margin-left: 8%;
+}
+
 
 
 .viewort_100-1010 .column_left .incut {
@@ -154,3 +158,14 @@ jqTransformRadioWrapper,
 }
 
 
+.viewort_100-1010 .poetry-order {
+    padding: 25px 17px;
+}
+
+.viewort_100-1010 fieldset {
+    margin: 0 17px 25px;
+}
+
+.viewort_100-1010 .columns_4set .column {
+    margin-left: 8%;
+}

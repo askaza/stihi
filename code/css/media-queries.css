@@ -2,6 +2,9 @@
 
 /* media queries */
 
+
+
+
 @media screen and (max-width: 1010px) {
     .column_left .incut {
         padding: 33px 18px;
@@ -12,11 +15,11 @@
     }
 
     .social-buttons  {
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top:-20px;
-	right: 24%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:-20px;
+        right: 24%;
     }
 
     .portfolio {
@@ -46,12 +49,23 @@
     }
 
 
-.text-box__head_style2 .text-box__note {
-    margin-left: -4px;
-    margin-top: -7px;
-    padding-left: 13px;
+    .text-box__head_style2 .text-box__note {
+        margin-left: -4px;
+        margin-top: -7px;
+        padding-left: 13px;
+    }
+
+    .columns_4set .column {
+        margin-left: 5%;
+    }
+    
+     fieldset {
+        margin: 0 17px 25px;
+    }
+
 }
-}
+
+
 
 
 @media screen and (max-width: 1280px) {
@@ -61,10 +75,10 @@
     }
 
     .columns_home .column {
-	margin-left: 6%;
+        margin-left: 6%;
     }
     .columns_home .promo-gallery {
-	margin-left: 0;
+        margin-left: 0;
         left:-19px;
     }
     .columns_home .promo-gallery__item {
@@ -73,7 +87,7 @@
 
     .page-head {
         margin-bottom: 40px;
-	width: 345px;
+        width: 345px;
     }
 
     .promo-title {
@@ -82,42 +96,48 @@
     }
 
     .page-title {
-	margin-top: 40px;
-	width: 345px;
+        margin-top: 40px;
+        width: 345px;
     }
 
     .portfolio-popup .column_left {
-	float: left;
-	padding: 75px 10px 0 30px;
-	width: 345px;
+        float: left;
+        padding: 75px 10px 0 30px;
+        width: 345px;
     }
 
     .portfolio-popup .column_right {
-	float: right;
-	padding: 0 0 0 0;
-	width: 390px;
+        float: right;
+        padding: 0 0 0 0;
+        width: 390px;
     }
 
     .portfolio-popup .page-title {
-	margin: 0;
+        margin: 0;
     }
 
     .portfolio-popup .page-head {
-	margin-left: 0;
+        margin-left: 0;
     }
 
     .fancybox-wrap,
     .fancybox-inner {
-	width: 780px !important;
+        width: 780px !important;
     }
 
 
     .incut_img  {
-       padding:8px;
+        padding:8px;
     }
 
+   
+    .columns_4set  .column {
+        margin-left: 7%;
+    }
 
 }
+
+
 
 
 /* content >  */
