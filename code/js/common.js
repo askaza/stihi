@@ -19,7 +19,7 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 	    }
 	},
 	 afterLoad: function(current) {
-	    
+
 	},
 	beforeLoad : function() {
 	    $('.menu__item_portfolio').addClass('menu__item_active');
@@ -29,9 +29,28 @@ $('.portfolio__item a').attr('rel', 'media-gallery').fancybox({
 	}
 
     });
-    
-    
- 
+
+    $('.show-hint-popup').fancybox({
+	openEffect : 'none',
+	closeEffect : 'none',
+	prevEffect : 'none',
+	nextEffect : 'none',
+	padding:0,
+	margin:0,
+	autoResize:false,
+	fitToView:false,
+	closeBtn:false,
+	arrows : false,
+	scrolling:'no',
+
+	helpers: {
+	    overlay : {
+		locked     : false
+	    }
+	}
+
+    });
+
 
 
 
