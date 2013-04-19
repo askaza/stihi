@@ -45,7 +45,7 @@ $(document).ready(function() {
         autoResize: false,
         fitToView: false,
         closeBtn: false,
-        arrows: true,
+        arrows: false,
         scrolling: 'no',
       
         afterLoad: function(current, next) {
@@ -59,11 +59,29 @@ $(document).ready(function() {
         },
         helpers: {
             overlay: {
-                locked: false
+                locked: true
             }
         }
     });
-
+    
+    $('.show-ready').fancybox({
+        openEffect: 'none',
+        closeEffect: 'none',
+        prevEffect: 'none',
+        nextEffect: 'none',
+        padding: 0,
+        margin: 0,
+        autoResize: false,
+        fitToView: false,
+        closeBtn: false,
+        arrows: false,
+        scrolling: 'no',
+        helpers: {
+            overlay: {
+                locked: true
+            }
+        }
+});
     $("#popup-character .hints-list__item li").on("click", function() {
         $(this).toggleClass('active-hint');
         var aListedWords = $("#characterlist").val().split(",");

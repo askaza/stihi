@@ -54,8 +54,8 @@
         margin-left: 0;
     }
 
-    .fancybox-wrap,
-    .fancybox-inner {
+    .portfolio-popup, 
+    .hint-popup {
         width: 780px !important;
     }
 
