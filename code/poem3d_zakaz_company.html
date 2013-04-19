@@ -124,60 +124,63 @@
                     <div class="line line_content">    <!-- .line_content -->
                         <div class="poetry-order">
 
-                            <a href="#" class="poetry-order-switch">О компании</a>
+                            <a href="#" class="poetry-order-switch">О человеке</a>
                             <form method="post" action="#" class="form">
 
                                 <fieldset>
-                                    <h4 class="poetry-order__title">О человеке</h4>
+                                    <h4 class="poetry-order__title">О компании</h4>
                                     <p class="form-text">
-                                        Я буду писать стихотворение с Ваших слов, и, чтобы оно получилось
-                                        объёмным и индивидуальным, я должен располагать достаточной информацией.
-                                        Если Вы упоминаете какие-то факты для более полного понимания личности
-                                        и не хотите отражать их в своих поздравлениях, пожалуйста, скажите об этом.
+                                        Копирайтинг в стихах — новое оригинальное направление. Я занимаюсь копирайтом чуть более трех лет,
+                                        берусь за разные темы и жанры: от теплых полов до лирики и политической сатиры.
                                         <strong>С уважением, Антонио Миро</strong>.
                                     </p>
 
-                                    <div class="columns columns_3set">
+                                    <div class="columns columns_2set">
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">1.Кого поздравляете?</h5>
+                                            <h5 class="fieldset-subtitle">1.Название компании?</h5>
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
-                                                    <label for="name">Имя</label>
                                                     <input class="field field_text" id="name"/>
                                                 </li>
+                                               
+                                            </ul>
+                                        </div>
+                                  
+                                        <div class="column">
+                                            <h5 class="fieldset-subtitle">2.Слоган компании</h5>
+                                            <ul class="fields-list">                                                
                                                 <li class="fields-list__item">
-                                                    <label for="nick">Есть прозвища? :)</label>
                                                     <input class="field field_text" id="nick"/>
                                                 </li>
                                             </ul>
                                         </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <h5 class="fieldset-subtitle">3. Предоставляемые услуги:</h5>
+                                    <ul class="fields-list">
+                                        <li class="fields-list__item">
+                                            <textarea class="field field_textarea field_textarea_short" placeholder="Например:дизайн интерьеров"></textarea>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <div class="columns columns_2set">
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">2.Кто он вам?</h5>
+                                            <h5 class="fieldset-subtitle">4. Оснорвные принципы работы</h5>                                            
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
-                                                    <label>Родство</label>
-                                                    <select class="field field_select">
-                                                        <option>Сестра</option>
-                                                        <option>Бабушка</option>
-                                                        <option>Двоюродная сестра</option>
-                                                    </select>
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <label>Отношения</label>
-                                                    <select class="field field_select">
-                                                        <option>Дружим-лучшая подруга</option>
-                                                        <option>Коллега</option>
-                                                        <option>Дальний родственник</option>
-                                                    </select>
+                                                    <textarea class="field field_textarea" placeholder="Например: профессионализм, новаторские идеи,современные материалы и т.п"></textarea>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">3.Что вас связывает?</h5>
+                                            <h5 class="fieldset-subtitle">5. Результат работы</h5>
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
-                                                    <label>История ваших отношений</label>
-                                                    <textarea class="field field_textarea" placeholder="Учились или работали вместе,ездили в один пионерский лагерь, жили в одной общаге и т.д."></textarea>
+                                                    <textarea class="field field_textarea" placeholder="Например: стильный и комфортный дизайн интерьера,обладающий исключительной функциональностью и т.п."></textarea>
                                                 </li>
                                             </ul>
                                         </div>
@@ -185,101 +188,7 @@
                                 </fieldset>
 
                                 <fieldset>
-                                    <h5 class="fieldset-subtitle">4.Праздник</h5>
-                                    <div class="columms columns_4set">
-                                        <div class="column">
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio1" /> 
-                                                        <label for="radio1">День рождения</label>
-                                                    </div>
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio2" /> 
-                                                        <label for="radio2">Юбилей</label>
-                                                    </div>
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio3" />
-                                                        <label for="radio3"> Рождение ребенка</label>
-                                                    </div>     
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column">
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio4"/>
-                                                        <label for="radio4">Свадьба</label>
-                                                    </div>   
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio5" />
-                                                        <label for="radio5">Новоселье</label>
-                                                    </div>   
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio6" />
-                                                        <label for="radio6">Именины</label>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column">
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio7"/>
-                                                        <label for="radio7"> Новый год</label>
-                                                    </div>
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio8"/>
-                                                        <label for="radio8">День влюбленных</label>
-                                                    </div>                                                         
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio9"/>
-                                                        <label for="radio9"> День матери</label>
-                                                    </div> 
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column">
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio10" />
-                                                        <label for="radio10"> 8 марта</label>
-                                                    </div> 
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                        <input class="field field_chbox" type="radio" name="poetry-reason" id="radio11" />
-                                                        <label for="radio11">23 февраля</label>
-                                                    </div>
-                                                </li>
-                                                <li class="fields-list__item">
-                                                    <div class="radio-box">
-                                                       <input class="field field_chbox" type="radio" name="poetry-reason" id="radio12" />                                                        
-                                                      <label for="radio12"> 9 мая</label>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </fieldset>
-
-                                <fieldset>
-                                    <h5 class="fieldset-subtitle">5. Ссылки на странички в социальных сетях:</h5>
+                                    <h5 class="fieldset-subtitle">6. Ссылки на странички в социальных сетях:</h5>
                                     <ul class="fields-list">
                                         <li class="fields-list__item">
                                             <textarea class="field field_textarea field_textarea_short"></textarea>
@@ -287,50 +196,9 @@
                                     </ul>
                                 </fieldset>
 
-                                <fieldset>
-                                    <div class="columns columns_2set">
-                                        <div class="column">
-                                            <h5 class="fieldset-subtitle">6. Какой характер?</h5>&nbsp;<a href="#popup-character" class="show-hint-popup">Список:черты&nbsp;характера</a>
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <textarea class="field field_textarea"  id="characterlist"></textarea>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column">
-                                            <h5 class="fieldset-subtitle">7. Что делает?</h5>
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <textarea class="field field_textarea" placeholder="Работа, хобби, увлечения"></textarea>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </fieldset>
 
                                 <fieldset>
-                                    <div class="columns columns_2set">
-                                        <div class="column">
-                                            <h5 class="fieldset-subtitle">8. Чем живет?</h5>
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <textarea class="field field_textarea" placeholder="Семья, дом, мечты, цели, жизненная позиция, вкусы, пристрастия, что любит (песни, фильмы),что не любит (рыбу, зиму)"></textarea>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column">
-                                            <h5 class="fieldset-subtitle">9. Что есть и что было?</h5>
-                                            <ul class="fields-list">
-                                                <li class="fields-list__item">
-                                                    <textarea class="field field_textarea" placeholder="Характерные поступки, проишествия, истории из жизни"></textarea>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </fieldset>
-
-                                <fieldset>
-                                    <h5 class="fieldset-subtitle">10. Загрузите фото- и видеоматериалы</h5>
+                                    <h5 class="fieldset-subtitle">7. Загрузите фото- и видеоматериалы</h5>
                                     <ul class="fields-list">
                                         <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
                                         <li class="fields-list__item"><input class="field field_file" type="file" name="file"/></li>
@@ -346,26 +214,24 @@
 
                                     <h4 class="poetry-order__title">О стихах</h4>
                                     <p class="form-text">
-                                        Вы, наверное, уже познакомились с <a href="#">моими стихами</a> и у Вас возникли
-                                        свои предпочтения к стилю, ритму, форме и настроению вашего будущего
-                                        поздравления. Пожалуйста, скопируйте ссылку на понравившееся произведение
-                                        в поле «Особые указания и пожелания» или напишите его первые строчки.
-                                        Я буду рад исполнить ваш замысел.
+                                        Если у Вас есть предпочтения по словам или фразам,  по стилю, ритму, форме или настроению вашего 
+                                        копирайта в стихах, пожалуйста, опишите их в поле «Особые указания и пожелания». Я буду рад исполнить ваш замысел.
                                     </p>
 
-                                    <h5 class="fieldset-subtitle">11. Что хотите пожелать?</h5>
-                                     <a href="#popup-wish" class="show-hint-popup">Список: основные пожелания</a>
+                                    <h5 class="fieldset-subtitle">8. Назначение рекламы</h5>
                                     <ul class="fields-list">
                                         <li class="fields-list__item">                                           
-                                            <textarea class="field field_textarea field_textarea_short" id="wishlist" placeholder="Но лучше пожелайте что-нибудь личное, подходящее именно для этого человека"></textarea>
+                                            <textarea class="field field_textarea field_textarea_short" placeholder="Перечислите места, где планируете размещение"></textarea>
                                         </li>
                                     </ul>
                                 </fieldset>
+                                
+                                
 
                                 <fieldset>
                                     <div class="columns columns_3set">
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">12. Какой тон стиха?</h5>
+                                            <h5 class="fieldset-subtitle">8. Какой тон стиха?</h5>
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
                                                     <select class="field field_select">
@@ -377,7 +243,7 @@
                                             </ul>
                                         </div>
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">13. Какой объем?</h5>
+                                            <h5 class="fieldset-subtitle">10. Какой объем?</h5>
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
                                                     <select class="field field_select">
@@ -389,11 +255,11 @@
                                             </ul>
                                         </div>
                                         <div class="column">
-                                            <h5 class="fieldset-subtitle">14. Какое обращение?</h5>
+                                            <h5 class="fieldset-subtitle">11. Какое обращение?</h5>
                                             <ul class="fields-list">
                                                 <li class="fields-list__item">
                                                     <select class="field field_select">
-                                                        <option>От нас на "ты"</option>
+                                                        <option>От нас к клиенту</option>
                                                         <option>От меня на "ты"</option>
                                                         <option>От нас на "вы"/option>
                                                     </select>
@@ -405,7 +271,7 @@
 
 
                                 <fieldset>
-                                    <h5 class="fieldset-subtitle">15. Особые указания и пожелания</h5>
+                                    <h5 class="fieldset-subtitle">12. Особые указания и пожелания</h5>
                                     <ul class="fields-list">
                                         <li class="fields-list__item">
                                             <textarea class="field field_textarea"></textarea>

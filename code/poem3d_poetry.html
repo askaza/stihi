@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
-	 <title>Стихи 3D</title>
+        <title>Стихи 3D</title>
         <meta charset="utf-8" />
         <link type="image/x-icon" rel="icon" href="favicon.ico" />
         <link type="image/png" rel="icon" href="favicon.png" />
@@ -15,7 +15,8 @@
         <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
         <script type="text/javascript" src="js/jquery.jqtransform.js"></script>
         <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
         <script type="text/javascript" src="js/common.js"></script>
 
         <!--[if lte IE 8 ]>
@@ -23,15 +24,15 @@
 
         <![endif]-->
 
-	<script type="text/javascript" src="js/yViewportModificator.min.js"></script>
-   
-	
-	<script type="text/javascript">
-		yViewportModificator.configure({
-		class_mask: 'viewort_',
-		widths: [100, 1010, 1280]
- 	});
-	</script>
+        <script type="text/javascript" src="js/yViewportModificator.min.js"></script>
+        <script type="text/javascript" src="js/jquery.columnizer.js"></script>
+
+        <script type="text/javascript">
+            yViewportModificator.configure({
+                class_mask: 'viewort_',
+                widths: [100, 1010, 1280]
+            });
+        </script>
 
 
     </head>
@@ -71,27 +72,27 @@
 				</div>
 				<div class="quote_promo__bottom"><i class="bl"></i><i class="br"></i></div>
                             </div>
-                            <ul class="portfolio">
-                                <li class="portfolio__item"><a href="#portfolio1" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio2" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio1" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio2" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
-                                <li class="portfolio__item"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                           <ul class="portfolio">
+                               <li class="portfolio__item portfolio1_link"><a href="#portfolio1" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio2_link"><a href="#portfolio2" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio1_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio1_link"><a href="#portfolio1" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio2_link"><a href="#portfolio2" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/2.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/5.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/4.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/6.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/3.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
+                                <li class="portfolio__item portfolio3_link"><a href="#portfolio3" rel="media-gallery"><img src="images/clients/1.jpg" alt="Стихи для Маши" title="Стихи для Маши" /></a></li>
                             </ul>
 
 

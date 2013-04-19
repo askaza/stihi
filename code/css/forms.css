@@ -62,21 +62,27 @@ label {
     width: 100%;
 }
 
+.field_text:focus, 
+.field_textarea:focus {
+    border-color: #1fbd9e;
+}
+
 .field_file {
-    height: 24px ;
-    margin-top: 5px;
+    
 }
 
 
-.form-error {
-    margin: 20px 0;
-    margin-left: 10px;
+.form-text_error {
+    color: #bd073f;
 }
 
+.field_error {
+    border-color: #e74c3c;
+}
 
 .form-text {
   color:#535353;    
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .form-text strong {
@@ -189,12 +195,41 @@ textarea::-webkit-input-placeholder { color: #a3a3a3; }
     cursor: pointer;
 }
 
+.radio-box label {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btnset {
+    margin: 40px 0 60px;
+    text-align: center;
+}
 
 .btn {
+    background: #dc2669;
     display: inline-block;
     vertical-align: top;
     position: relative;
     cursor: pointer;
+    width: 180px;
+    padding: 8px 0;
     font-family: 'Arial', 'Helvetica', sans-serif;
-    font-size: 14px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #ed3a7c;
+}
+.btn:active {
+    background: #b32559;
+}
+
+.form-text_center {
+    text-align: center;
+}
+.poetry-order label {
+    white-space: nowrap;
 }

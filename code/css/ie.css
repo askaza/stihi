@@ -103,7 +103,7 @@ jqTransformRadioWrapper,
     padding:8px;
 }
 .viewort_100-1280 .columns_4set .column {
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 
@@ -167,5 +167,10 @@ jqTransformRadioWrapper,
 }
 
 .viewort_100-1010 .columns_4set .column {
-    margin-left: 8%;
+    margin-left: 4%;
+}
+
+.viewort_100-1010 .columns_4set .column:first-child, 
+.viewort_100-1200 .columns_4set .column:first-child {
+    margin-left: 0;   
 }

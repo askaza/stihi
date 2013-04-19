@@ -204,7 +204,14 @@ body {
     filter: alpha(opacity=100);
     opacity: 1;
 }
-
+.portfolio__item.active img {
+    border:2px solid #fff;
+    height: 41px;
+    width: 41px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
 .quote_promo {
     float: right;
     margin: 42px 0 20px 35px;
@@ -673,7 +680,7 @@ body {
 
 
 .fancybox-wrap {
-    position: absolute;
+    position: absolute !important;
     left: 0;
     z-index: 8020;
     margin: 0 0 40px;
@@ -805,6 +812,9 @@ body {
     right: 5%;
     top:20px;
 }
+.poetry-order .column {
+    position: relative;
+}
 .columns_3set .column {
     margin-left: 5%;
     width: 30%;
@@ -825,9 +835,20 @@ body {
 
 .fieldset-subtitle {
     font-family: 'Arial';
-    font-size: 22px;
-    margin-bottom: 20px;
+    display: inline;
+    font-size: 22px;   
+    white-space: nowrap;
 }
+.poetry-order .fields-list {
+     margin-top: 20px;
+}
+
+.show-hint-popup {
+    font-family: 'PTSansNarrowRegular';
+}
+
+
+
 /* incut <  */
 
 
@@ -886,3 +907,70 @@ body {
     margin-bottom: 26px;
 }
 /* incut <  */
+
+/* hint-popup */
+
+.hint-popup {
+    padding: 30px 40px;
+}
+.hint-popup__head {
+    border-bottom: 1px dashed #CECECE;
+    font-family: 'Arial';
+    font-size: 22px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    position: relative;
+}
+.hint-popup__head  .btn {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    width: 46px;
+}
+.btn:hover {
+    text-decoration: none;
+    color:#fff;
+}
+.letter {
+    background: url(../images/bg/number.png) no-repeat 0 0; 
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 29px;
+    height: 37px;
+    color: #fff;
+    line-height: 29px;
+}
+
+.hints-list, 
+.hints-list ul {
+    margin: 0;
+    padding: 0;
+}
+.hints-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none outside;
+}
+
+.hints-list .hints-list__item {
+    margin-bottom: 30px;     
+}
+       
+.hints-list__item li {   
+    background: url(../images/bg/check.png) no-repeat 0 -60px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    min-height: 21px;
+    padding-left: 30px;
+    cursor: pointer;
+     
+}
+.hints-list__item li:hover {
+    background-position: 0 -30px;
+} 
+
+.hints-list__item li.active-hint {
+    background-position: 0 0;
+} 
